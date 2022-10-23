@@ -1,0 +1,18 @@
+.footer-container {
+  width: 100%;
+  max-width: 1200px;
+  height: 50px;
+  text-align: center;
+  
+  background-color: #E9C46A;
+  color: #264653;
+  font-family: 'DungGeunMo';
+  font-size: medium;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin: 40px auto 20px;
+}

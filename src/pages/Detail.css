@@ -1,0 +1,43 @@
+@import url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
+@font-face {
+    font-family: 'LeeSeoyun';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.detail-container {
+  width: 95%;
+  max-width: 1200px;
+  background-color: #f0d696;
+
+  margin: auto;
+
+}
+
+.detail-container > h1 {
+  color: #264653;
+  font-family: 'DungGeunMo';
+
+  margin: 40px 0 40px 80px;
+}
+
+.detail-form {
+  width: 90%;
+  max-width: 1000px;
+  min-height: 400px;
+
+  justify-content: center;
+  margin: 40px 0 40px 150px;
+}
+
+
+
+.detailPic-1 {
+  width: 700px;
+  height: 500px;
+
+  background-image: url("https://w.namu.la/s/7e1684a43ee55f4d572a71d3f900959d11e1915d5ef0b9d4dfef90afdd2489bed970168a50deeb9d3761800404887ca9ad2b43ba9bc497750c35e8052b4f1014e870cf7ef717c58141b1c0fc993823e1c4d57b57265841b047387e9430552b712617002c10c37ae4c2dc2c2c2755306c");
+  background-size: cover;
+  background-position: center;
+}

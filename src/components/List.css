@@ -1,0 +1,121 @@
+@import url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
+@font-face {
+    font-family: 'LeeSeoyun';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.list-container {
+  background-color: #f0d696;
+}
+
+.list-container > h1 {
+  color: #264653;
+  font-family: 'DungGeunMo';
+
+  margin: 40px 0 40px 80px;
+}
+
+.list-box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/* .list-card > h2 {
+  font-family: "Galmuri14", sans-serif;
+} */
+
+.list-desc {
+  font-family: 'LeeSeoyun';
+  font-size: 18px;
+}
+
+.list-card {
+  width: 200px;
+  height: 400px;
+
+  font-family: "Galmuri14", sans-serif;
+  cursor: pointer;
+
+  background-color: #F4F4F4;
+  /* box-shadow: x y blur spread color */
+  box-shadow: 0px 0px 1px 0px #6F737C;
+
+  margin-bottom: 30px;
+  padding: 40px;
+}
+
+.listPic-1 {
+  width: 200px;
+  height: 300px;
+
+  background-image: url("https://w.namu.la/s/7e1684a43ee55f4d572a71d3f900959d11e1915d5ef0b9d4dfef90afdd2489bed970168a50deeb9d3761800404887ca9ad2b43ba9bc497750c35e8052b4f1014e870cf7ef717c58141b1c0fc993823e1c4d57b57265841b047387e9430552b712617002c10c37ae4c2dc2c2c2755306c");
+  background-size: cover;
+  background-position: center;
+}
+
+.listPic-2 {
+  width: 200px;
+  height: 300px;
+
+  background-image: url("https://w.namu.la/s/bf6b0425226c329f3e26f7e7f23a703ae50ecf3602ed76c8aa7b5f338e2a6092d02e1fc6e350f0c08084e1531e7dfb25c36c0f2a53aeace6113a39ea5bfa0ed2374929b539d635799c6785b384715e4d4c6785c8b65d64605b1b83a8f873edee1e7ad9eacd33400171183daabe38d09b");
+  background-size: cover;
+  background-position: center;
+}
+
+.listPic-3 {
+  width: 200px;
+  height: 300px;
+
+  background-image: url("https://w.namu.la/s/9ae2792c3e79c90317df9a856e5608cfd84a9f4d3676b70cbc753ef545160f0b93f1b5a10fd2fc49afdc7cbeeb002ee2dbcfdabc770acb38b6867f7b44223f953253fd5ceee39a40627bfa96b358531f07931400fee7aab753c8c39572e1c5bfb8f7ca00b2bf96f8a90cf1aa315c6b99");
+  background-size: cover;
+  background-position: center;
+}
+
+.listPic-4 {
+  width: 200px;
+  height: 300px;
+
+  background-image: url("https://w.namu.la/s/3c56c62e6d6dd82f97cf7b05087934c8350548fd843b5c953d9371cd3b14ad2130fe02e5eb13adbfa9b1e71bd5a81136c1a5231de8e71db33c0bf2960786fb801863e19db1acd6852d80fb7fa5dd0b5a38704001ea4e71e0b2f09e7ffc3fe7ac36f4189c89cd3a38230324df02756e14");
+  background-size: cover;
+  background-position: center;
+}
+
+.listPic-5 {
+  width: 200px;
+  height: 300px;
+
+  background-image: url("https://w.namu.la/s/a1b55bbdc5bdea03c8fc4cc580ed416010e1daaddaeac99ad1d2acbe8e672a19ad6c0487ba204c0f516ed468fc7e204a7745f2f79dad05f3ae5815c030cc265b480c159074377dee54f663299bf4c876420a43a05000b85a8c2f41082f25a6023694de9da4c956fa272099b8cac4fbaa");
+  background-size: cover;
+  background-position: center;
+}
+
+.listPic-6 {
+  width: 200px;
+  height: 300px;
+
+  background-image: url("https://an2-img.amz.wtchn.net/image/v2/2ob_UdFXfJ8j4ToYFEdVKw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk56STVlREV3T0RCeE9EQWlYU3dpY0NJNklpOTJNaTl6ZEc5eVpTOXBiV0ZuWlM4eE5qUTFOVEV5TWpBek1EYzNOall3T0RZeUluMC5VNTRMalRzb2JHZ054ZFQ2alZjZ0g3ei1xZ0g3NmQ1NFVFVC1JM3hFcWpJ");
+  background-size: cover;
+  background-position: center;
+}
+
+.listPic-7 {
+  width: 200px;
+  height: 300px;
+
+  background-image: url("https://images.justwatch.com/poster/298145405/s592/pokemon");
+  background-size: cover;
+  background-position: center;
+}
+
+.listPic-8 {
+  width: 200px;
+  height: 300px;
+
+  background-image: url("https://an2-img.amz.wtchn.net/image/v2/pSeHD9htp62BKSWYGnc7ug.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk56STVlREV3T0RCeE9EQWlYU3dpY0NJNklpOTJNaTl6ZEc5eVpTOXBiV0ZuWlM4eE5qTTJNREl5TXpBd05qUXdORGMzTURrekluMC5iYTZyRFhfX3IwMm9ZWUpqa2tYRW1xN2tGeE01dDRrYTVKbFdtR3BaWEIw");
+  background-size: cover;
+  background-position: center;
+}

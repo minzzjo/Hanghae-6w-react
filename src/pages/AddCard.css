@@ -1,0 +1,152 @@
+@import url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
+@font-face {
+    font-family: 'LeeSeoyun';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.addCard-container {
+  width: 95%;
+  max-width: 1200px;
+  background-color: #f0d696;
+
+  margin: auto;
+}
+
+.addCard-container > h1 {
+  color: #264653;
+  font-family: 'DungGeunMo';
+
+  margin: 40px 0 40px 80px;
+}
+
+.addCard-form {
+  width: 90%;
+  max-width: 1000px;
+  min-height: 400px;
+
+  justify-content: center;
+  margin: 40px 0 40px 150px;
+}
+
+.addCard-img {
+  padding: 40px 0 0 40px;
+  margin-bottom: 30px;
+}
+
+.addCard-img > input {
+  width: 700px;
+  height: 33px;
+
+  border: 2px solid #2A9D8F;
+  border-radius: 7px;
+  background-color: transparent;
+
+  margin-right: 15px;
+}
+
+.addCard-img > input::placeholder {
+  color: #2A9D8F;
+  font-family: 'LeeSeoyun';
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.addCard-img > button {
+  width: 85px;
+  height: 33px;
+
+  font-family: "Galmuri14", sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  background-color: #F4A261;
+  color: #264653;
+  border: none;
+  border-radius: 5px;
+}
+
+.addCard-img > button:hover {
+  cursor: pointer;
+  background-color: #E76F51;
+}
+
+.addCard-content {
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+
+.addCard-content > input {
+  width: 800px;
+  height: 35px;
+
+  border: 2px solid #2A9D8F;
+  border-radius: 7px;
+  background-color: transparent;
+
+  margin-bottom: 20px;
+}
+
+.addCard-content > input::placeholder {
+  color: #2A9D8F;
+  font-family: 'LeeSeoyun';
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.addCard-content > textarea {
+  width: 800px;
+  min-height: 200px;
+
+  border: 2px solid #2A9D8F;
+  border-radius: 7px;
+  background-color: transparent;
+}
+
+.addCard-content > textarea::placeholder {
+  padding-top: 10px;
+  color: #2A9D8F;
+  font-family: 'LeeSeoyun';
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+}
+
+.addCard-btn-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.addCard-btn {
+  width: 300px;
+  height: 50px;
+
+  font-family: "Galmuri14", sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  text-align: center;
+  color: #E76F51;
+
+  cursor: pointer;
+  background: #2E5564;
+  border: none;
+  border-radius: 15px;
+
+  margin-right: 50px;
+}
+.addCard-btn:before {
+  height: 0%;
+  width: 2px;
+}
+.addCard-btn:hover {
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}

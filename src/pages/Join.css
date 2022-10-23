@@ -1,0 +1,48 @@
+.detail-navbar {
+  width: 91%;
+  max-width: 1200px;
+  height: 40px;
+
+  background-color: #E9C46A;
+  border: 2px solid #E9C46A;
+  color: #264653;
+  font-family: 'DungGeunMo';
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: auto;
+  padding: 0 50px;
+};
+
+.nav-btn  {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: #000;
+  -webkit-transform: scaleX(.3);
+  transform: scaleX(.3);
+  opacity: 0;
+  transition: all .3s
+}
+
+.nav-btn:hover {
+  color: #E9C46A;
+  opacity: 1;
+  background-color: #2A9D8F;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  transition: -webkit-transform .6s cubic-bezier(.08, .35, .13, 1.02), opacity .4s;
+  transition: transform .6s cubic-bezier(.08, .35, .13, 1.02), opacity
+}
+
+.detail-box {
+  min-height: 500px;
+}
