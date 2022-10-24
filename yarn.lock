@@ -3676,6 +3676,11 @@ data-urls@^2.0.0:
     whatwg-mimetype "^2.3.0"
     whatwg-url "^8.0.0"
 
+dbjson@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/dbjson/-/dbjson-1.0.0.tgz#321580a5ded4bc8bcb2ccbdd20137d55c9241643"
+  integrity sha512-u2ELZyRiEF+NwiHIChuObTscjOGCqUPCPJDaSLexWpmk1yhEaV6ie0bz5/l5KT8X2pUJ/VcBkqW1JG1PGpPyJQ==
+
 debug@*, debug@4, debug@^4.1.0, debug@^4.1.1, debug@^4.3.2, debug@^4.3.4:
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"

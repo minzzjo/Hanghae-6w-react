@@ -8,9 +8,7 @@ const initialState = {
   comment: [
     {
       id: 1,
-      category: "toon",
       comment: "내 이름은 코난, 탐정이죠.",
-      heart: false,
     }
   ]
 };

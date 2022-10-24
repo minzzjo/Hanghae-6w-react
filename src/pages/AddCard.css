@@ -1,9 +1,10 @@
-@import url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
+@import url("https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css");
 @font-face {
-    font-family: 'LeeSeoyun';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "LeeSeoyun";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 .addCard-container {
@@ -16,7 +17,7 @@
 
 .addCard-container > h1 {
   color: #264653;
-  font-family: 'DungGeunMo';
+  font-family: "DungGeunMo";
 
   margin: 40px 0 40px 80px;
 }
@@ -39,21 +40,22 @@
   width: 700px;
   height: 33px;
 
-  border: 2px solid #E5E5E5;
+  border: 2px solid #e5e5e5;
   border-radius: 10px;
-  background-color: #FFF;
+  background-color: #fff;
+  margin-right: 15px;
 }
 
 .addCard-img > input::placeholder {
-  color: #CCC;
-  font-family: 'LeeSeoyun';
+  color: #ccc;
+  font-family: "LeeSeoyun";
   font-size: 20px;
   font-weight: bold;
   text-align: center;
 }
 
 .addCard-img > input:focus {
-  outline: 2px solid #2A9D8F;
+  outline: 2px solid #2a9d8f;
 }
 
 .addCard-img > button {
@@ -63,7 +65,7 @@
   font-family: "Galmuri14", sans-serif;
   font-size: medium;
   font-weight: bold;
-  background-color: #F4A261;
+  background-color: #f4a261;
   color: #264653;
   border: none;
   border-radius: 5px;
@@ -71,7 +73,7 @@
 
 .addCard-img > button:hover {
   cursor: pointer;
-  background-color: #E76F51;
+  background-color: #e76f51;
 }
 
 .addCard-title {
@@ -83,9 +85,10 @@
 .addCard-title > select {
   width: 190px;
   height: 33px;
-  border: 2px solid #E5E5E5;
+  border: 2px solid #e5e5e5;
   border-radius: 5px;
-  background-color: url('https://freepikpsd.com/media/2019/10/down-arrow-icon-png-7-Transparent-Images.png') calc(100% - 5px) center no-repeat;
+  background-color: url("https://freepikpsd.com/media/2019/10/down-arrow-icon-png-7-Transparent-Images.png")
+    calc(100% - 5px) center no-repeat;
   background-size: 20px;
   outline: 0 none;
 
@@ -94,7 +97,7 @@
 }
 
 .addCard-title > select option {
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
   color: #264653;
   padding: 3px 0;
 }
@@ -103,23 +106,23 @@
   width: 600px;
   height: 33px;
 
-  border: 2px solid #E5E5E5;
+  border: 2px solid #e5e5e5;
   border-radius: 10px;
-  background-color: #FFF;
+  background-color: #fff;
 
   margin-bottom: 20px;
 }
 
-.addCard-title >input::placeholder {
-  color: #CCC;
-  font-family: 'LeeSeoyun';
+.addCard-title > input::placeholder {
+  color: #ccc;
+  font-family: "LeeSeoyun";
   font-size: 20px;
   font-weight: bold;
   text-align: center;
 }
 
 .addCard-title > input:focus {
-  outline: 2px solid #2A9D8F;
+  outline: 2px solid #2a9d8f;
 }
 
 .addCard-content {
@@ -133,45 +136,45 @@
   width: 600px;
   height: 35px;
 
-  border: 2px solid #E5E5E5;
+  border: 2px solid #e5e5e5;
   border-radius: 10px;
-  background-color: #FFF;
+  background-color: #fff;
 
   margin-bottom: 20px;
 }
 
 .addCard-content > input::placeholder {
-  color: #CCC;
-  font-family: 'LeeSeoyun';
+  color: #ccc;
+  font-family: "LeeSeoyun";
   font-weight: bold;
   font-size: 20px;
   text-align: center;
 }
 
 .addCard-content > input:focus {
-  outline: 2px solid #2A9D8F;
+  outline: 2px solid #2a9d8f;
 }
 
 .addCard-content > textarea {
   width: 800px;
   min-height: 200px;
 
-  border: 2px solid #E5E5E5;
+  border: 2px solid #e5e5e5;
   border-radius: 10px;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 .addCard-content > textarea::placeholder {
   padding-top: 10px;
-  color: #CCC;
-  font-family: 'LeeSeoyun';
+  color: #ccc;
+  font-family: "LeeSeoyun";
   font-weight: bold;
   font-size: 22px;
   text-align: center;
 }
 
 .addCard-content > textarea:focus {
-  outline: 2px solid #2A9D8F;
+  outline: 2px solid #2a9d8f;
 }
 
 .addCard-btn-box {
@@ -189,10 +192,10 @@
   font-size: 19px;
   font-weight: bold;
   text-align: center;
-  color: #2E5564;
+  color: #2e5564;
 
   cursor: pointer;
-  background-color: #E9C46A;
+  background-color: #e9c46a;
   border: none;
   border-radius: 15px;
 
@@ -207,5 +210,5 @@
               -4px -4px 6px 0 rgba(116, 125, 136, .5), 
     inset -4px -4px 6px 0 rgba(255,255,255,.2),
     inset 4px 4px 6px 0 rgba(0, 0, 0, .4); */
-    background-color: #F4A261;
+  background-color: #f4a261;
 }

@@ -8,8 +8,8 @@ const initialState = {
   comment: [
     {
       id: 1,
+      url: "https://image.tving.com/upload/cms/caip/CAIP0400/P000388342.jpg/dims/resize/1280",
       category: "toon",
-      image: "url",
       title: "떡잎유치원 친구들과의 추억",
       content: "짱구는 정말정말 못말려",
       heart: false,
@@ -25,6 +25,7 @@ export const __getContent = createAsyncThunk(
   async (thunkAPI) => {
     try {
       const data = await axios.get("http://localhost:3001/content");
+      console.log("data", data)
       return thunkAPI.fulfillWithValue(data.data);
     } catch (error) {
       return thunkAPI.rejectWithValue(error);
