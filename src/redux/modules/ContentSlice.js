@@ -22,7 +22,7 @@ const initialState = {
 //GET - GETCONTENT
 export const __getContent = createAsyncThunk(
   "content/__getTodo",
-  async (payload, thunkAPI) => {
+  async (thunkAPI) => {
     try {
       const data = await axios.get("http://localhost:3001/content");
       return thunkAPI.fulfillWithValue(data.data);
@@ -37,7 +37,7 @@ export const __addContent = createAsyncThunk(
   "content/__addTodo",
   async (payload, thunkAPI) => {
     try {
-      const data = await axios.post("http://localhost:3001/content", payload)
+      await axios.post("http://localhost:3001/content", payload)
     } catch (error) {
       return thunkAPI.rejectWithValue(error);
     }

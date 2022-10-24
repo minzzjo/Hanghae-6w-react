@@ -39,19 +39,21 @@
   width: 700px;
   height: 33px;
 
-  border: 2px solid #2A9D8F;
-  border-radius: 7px;
-  background-color: transparent;
-
-  margin-right: 15px;
+  border: 2px solid #E5E5E5;
+  border-radius: 10px;
+  background-color: #FFF;
 }
 
 .addCard-img > input::placeholder {
-  color: #2A9D8F;
+  color: #CCC;
   font-family: 'LeeSeoyun';
   font-size: 20px;
   font-weight: bold;
   text-align: center;
+}
+
+.addCard-img > input:focus {
+  outline: 2px solid #2A9D8F;
 }
 
 .addCard-img > button {
@@ -72,6 +74,54 @@
   background-color: #E76F51;
 }
 
+.addCard-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.addCard-title > select {
+  width: 190px;
+  height: 33px;
+  border: 2px solid #E5E5E5;
+  border-radius: 5px;
+  background-color: url('https://freepikpsd.com/media/2019/10/down-arrow-icon-png-7-Transparent-Images.png') calc(100% - 5px) center no-repeat;
+  background-size: 20px;
+  outline: 0 none;
+
+  padding: 5px 30px 5px 10px;
+  margin: 0 10px 20px 40px;
+}
+
+.addCard-title > select option {
+  background-color: #E5E5E5;
+  color: #264653;
+  padding: 3px 0;
+}
+
+.addCard-title > input {
+  width: 600px;
+  height: 33px;
+
+  border: 2px solid #E5E5E5;
+  border-radius: 10px;
+  background-color: #FFF;
+
+  margin-bottom: 20px;
+}
+
+.addCard-title >input::placeholder {
+  color: #CCC;
+  font-family: 'LeeSeoyun';
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.addCard-title > input:focus {
+  outline: 2px solid #2A9D8F;
+}
+
 .addCard-content {
   width: 900px;
   display: flex;
@@ -80,40 +130,48 @@
 }
 
 .addCard-content > input {
-  width: 800px;
+  width: 600px;
   height: 35px;
 
-  border: 2px solid #2A9D8F;
-  border-radius: 7px;
-  background-color: transparent;
+  border: 2px solid #E5E5E5;
+  border-radius: 10px;
+  background-color: #FFF;
 
   margin-bottom: 20px;
 }
 
 .addCard-content > input::placeholder {
-  color: #2A9D8F;
+  color: #CCC;
   font-family: 'LeeSeoyun';
   font-weight: bold;
   font-size: 20px;
   text-align: center;
 }
 
+.addCard-content > input:focus {
+  outline: 2px solid #2A9D8F;
+}
+
 .addCard-content > textarea {
   width: 800px;
   min-height: 200px;
 
-  border: 2px solid #2A9D8F;
-  border-radius: 7px;
-  background-color: transparent;
+  border: 2px solid #E5E5E5;
+  border-radius: 10px;
+  background-color: #FFF;
 }
 
 .addCard-content > textarea::placeholder {
   padding-top: 10px;
-  color: #2A9D8F;
+  color: #CCC;
   font-family: 'LeeSeoyun';
   font-weight: bold;
   font-size: 22px;
   text-align: center;
+}
+
+.addCard-content > textarea:focus {
+  outline: 2px solid #2A9D8F;
 }
 
 .addCard-btn-box {
@@ -131,10 +189,10 @@
   font-size: 19px;
   font-weight: bold;
   text-align: center;
-  color: #E76F51;
+  color: #2E5564;
 
   cursor: pointer;
-  background: #2E5564;
+  background-color: #E9C46A;
   border: none;
   border-radius: 15px;
 
@@ -145,8 +203,9 @@
   width: 2px;
 }
 .addCard-btn:hover {
-  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+  /* box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
               -4px -4px 6px 0 rgba(116, 125, 136, .5), 
     inset -4px -4px 6px 0 rgba(255,255,255,.2),
-    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4); */
+    background-color: #F4A261;
 }
